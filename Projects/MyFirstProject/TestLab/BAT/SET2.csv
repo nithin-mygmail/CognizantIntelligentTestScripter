@@ -1,0 +1,6 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,API Scenario,Delete,Single,NoRun,Chrome Headless,Default,Any
+true,API Scenario,Get,Single,NoRun,Chrome Headless,Default,Any
+true,API Scenario,Post,Single,NoRun,Chrome Headless,Default,Any
+true,TestFunctions,DataGeneration,Single,NoRun,Chrome Headless,Default,Any
+true,Sc1,Tc2,Single,NoRun,Chrome Headless,Default,Any

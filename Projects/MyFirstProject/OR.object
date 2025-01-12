@@ -59,7 +59,7 @@
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
         <Property value="" ref="type" pref="9"/>
-        <Property value="&lt;button class=&quot;btn btn_primary btn_small btn_inventory&quot; data-test=&quot;add-to-cart-sauce-labs-onesie&quot; id=&quot;add-to-cart-sauce-labs-onesie&quot; name=&quot;add-to-cart-sauce-labs-onesie&quot;>Add to cart&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;button class=&quot;btn btn_primary btn_small btn_inventory &quot; data-test=&quot;add-to-cart-sauce-labs-onesie&quot; id=&quot;add-to-cart-sauce-labs-onesie&quot; name=&quot;add-to-cart-sauce-labs-onesie&quot;>Add to cart&lt;/button>" ref="outerHTML" pref="10"/>
         <Property value="button" ref="tagName" pref="11"/>
         <Property value="" ref="placeholder" pref="11"/>
       </Object>
@@ -75,7 +75,7 @@
         <Property value="shopping_cart_link" ref="class" pref="7"/>
         <Property value="a.shopping_cart_link" ref="css" pref="8"/>
         <Property value="a" ref="type" pref="9"/>
-        <Property value="&lt;a class=&quot;shopping_cart_link&quot;>&lt;span class=&quot;shopping_cart_badge&quot;>1&lt;/span>&lt;/a>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;a class=&quot;shopping_cart_link&quot; data-test=&quot;shopping-cart-link&quot;>&lt;span class=&quot;shopping_cart_badge&quot; data-test=&quot;shopping-cart-badge&quot;>1&lt;/span>&lt;/a>" ref="outerHTML" pref="10"/>
         <Property value="a" ref="tagName" pref="11"/>
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
@@ -91,7 +91,7 @@
         <Property value="inventory_item_name" ref="class" pref="7"/>
         <Property value="div.inventory_item_name" ref="css" pref="8"/>
         <Property value="div" ref="type" pref="9"/>
-        <Property value="&lt;div class=&quot;inventory_item_name&quot;>Sauce Labs Onesie&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;div class=&quot;inventory_item_name&quot; data-test=&quot;inventory-item-name&quot;>Sauce Labs Onesie&lt;/div>" ref="outerHTML" pref="10"/>
         <Property value="div" ref="tagName" pref="11"/>
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
@@ -107,7 +107,7 @@
         <Property value="btn btn_action btn_medium checkout_button" ref="class" pref="7"/>
         <Property value="#checkout" ref="css" pref="8"/>
         <Property value="submit" ref="type" pref="9"/>
-        <Property value="&lt;button class=&quot;btn btn_action btn_medium checkout_button&quot; data-test=&quot;checkout&quot; id=&quot;checkout&quot; name=&quot;checkout&quot;>Checkout&lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;button class=&quot;btn btn_action btn_medium checkout_button &quot; data-test=&quot;checkout&quot; id=&quot;checkout&quot; name=&quot;checkout&quot;>Checkout&lt;/button>" ref="outerHTML" pref="10"/>
         <Property value="button" ref="tagName" pref="11"/>
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
@@ -183,11 +183,11 @@
         <Property value="" ref="id" pref="3"/>
         <Property value="" ref="link_text" pref="4"/>
         <Property value="" ref="relative_xpath" pref="5"/>
-        <Property value="/html/body/div/div/div/div[2]/div/div[2]/div[7]" ref="xpath" pref="6"/>
+        <Property value="/html/body/div/div/div/div[2]/div/div[2]/div[8]" ref="xpath" pref="6"/>
         <Property value="summary_total_label" ref="class" pref="7"/>
         <Property value="div.summary_total_label" ref="css" pref="8"/>
         <Property value="div" ref="type" pref="9"/>
-        <Property value="&lt;div class=&quot;summary_total_label&quot;>Total: $8.63&lt;/div>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;div class=&quot;summary_total_label&quot; data-test=&quot;total-label&quot;>Total: $8.63&lt;/div>" ref="outerHTML" pref="10"/>
         <Property value="div" ref="tagName" pref="11"/>
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
@@ -219,7 +219,7 @@
         <Property value="complete-header" ref="class" pref="7"/>
         <Property value="h2.complete-header" ref="css" pref="8"/>
         <Property value="h2" ref="type" pref="9"/>
-        <Property value="&lt;h2 class=&quot;complete-header&quot;>THANK YOU FOR YOUR ORDER&lt;/h2>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;h2 class=&quot;complete-header&quot; data-test=&quot;complete-header&quot;>Thank you for your order!&lt;/h2>" ref="outerHTML" pref="10"/>
         <Property value="h2" ref="tagName" pref="11"/>
         <Property value="Username" ref="placeholder" pref="11"/>
       </Object>
@@ -235,7 +235,7 @@
         <Property value="" ref="class" pref="7"/>
         <Property value="" ref="css" pref="8"/>
         <Property value="span" ref="type" pref="9"/>
-        <Property value="&lt;span class=&quot;title&quot;>Checkout: Complete!&lt;/span>" ref="outerHTML" pref="10"/>
+        <Property value="&lt;span class=&quot;title&quot; data-test=&quot;title&quot;>Checkout: Complete!&lt;/span>" ref="outerHTML" pref="10"/>
         <Property value="span" ref="tagName" pref="11"/>
       </Object>
     </ObjectGroup>

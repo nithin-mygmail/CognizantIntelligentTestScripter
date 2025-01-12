@@ -1,15 +1,15 @@
 Run Information
 ========================
 cognizant.intelligent.test.scripter.engine :  2.0
-java.runtime.name                          :  OpenJDK Runtime Environment
-java.version                               :  16.0.1
-java.home                                  :  C:\Users\User\Java\jdk-16.0.1
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  21.0.5
+java.home                                  :  C:\Program Files\Java\jdk-21
 os.name                                    :  Windows 10
 os.arch                                    :  amd64
 os.version                                 :  10.0
 file.encoding                              :  UTF-8
 ========================
-Run Started on Thu Dec 29 21:06:06 CET 2022
+Run Started on Sun Jan 12 13:26:55 IST 2025
 
 Scenario         :  [Sc1]
 TestCase         :  [Tc1]
@@ -22,127 +22,127 @@ Running Iteration :  [Single]
 
 ===================================================================================================
 
-Step:1  |  Object:Browser  |  Action:Open  |  Input:Login:URL  |  Condition:  | @29-Dec-2022 21:06:09.009
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Login:URL  |  Condition:  | @12-Jan-2025 13:26:57.057
 [DONE]   | Opened Url: https://www.saucedemo.com/
 
 
 ===================================================================================================
 
-Step:2  |  Object:Username  |  Action:Set  |  Input:Login:Username  |  Condition:  | @29-Dec-2022 21:06:10.010
+Step:2  |  Object:Username  |  Action:Set  |  Input:Login:Username  |  Condition:  | @12-Jan-2025 13:26:57.057
 [DONE]   | Entered Text 'standard_user' on 'Username'
 
 
 ===================================================================================================
 
-Step:3  |  Object:Password  |  Action:setEncrypted  |  Input:%password%  |  Condition:  | @29-Dec-2022 21:06:10.010
+Step:3  |  Object:Password  |  Action:setEncrypted  |  Input:%password%  |  Condition:  | @12-Jan-2025 13:26:57.057
 [DONE]   | Entered Encrypted Text SZpqTtjfW+i4z45kdTv2OA== on Password
 
 
 ===================================================================================================
 
-Step:4  |  Object:Login  |  Action:Click  |  Input:  |  Condition:  | @29-Dec-2022 21:06:10.010
+Step:4  |  Object:Login  |  Action:Click  |  Input:  |  Condition:  | @12-Jan-2025 13:26:57.057
 [DONE]   | Clicking on Login
 
 
 ===================================================================================================
 
-Step:1  |  Object:Add to cart  |  Action:setObjectProperty  |  Input:Purchase:ItemToBuy  |  Condition:#nameofItem  | @29-Dec-2022 21:07:41.041
+Step:1  |  Object:Add to cart  |  Action:setObjectProperty  |  Input:Purchase:ItemToBuy  |  Condition:#nameofItem  | @12-Jan-2025 13:26:57.057
 [DONE]   | Setting Object Property for #nameofItem with Sauce Labs Bolt T-Shirt for Object [Swag - Add to cart]
 
 
 ===================================================================================================
 
-Step:2  |  Object:Add to cart  |  Action:Click  |  Input:  |  Condition:  | @29-Dec-2022 21:07:43.043
+Step:2  |  Object:Add to cart  |  Action:Click  |  Input:  |  Condition:  | @12-Jan-2025 13:26:57.057
 [DONE]   | Clicking on Add to cart
 
 
 ===================================================================================================
 
-Step:3  |  Object:Cart Icon  |  Action:Click  |  Input:  |  Condition:  | @29-Dec-2022 21:08:19.019
+Step:3  |  Object:Cart Icon  |  Action:Click  |  Input:  |  Condition:  | @12-Jan-2025 13:26:57.057
 [DONE]   | Clicking on Cart Icon
 
 
 ===================================================================================================
 
-Step:4  |  Object:Item To Buy  |  Action:setObjectProperty  |  Input:Purchase:ItemToBuy  |  Condition:#ItemtoBuy  | @29-Dec-2022 21:08:42.042
+Step:4  |  Object:Item To Buy  |  Action:setObjectProperty  |  Input:Purchase:ItemToBuy  |  Condition:#ItemtoBuy  | @12-Jan-2025 13:26:57.057
 [DONE]   | Setting Object Property for #ItemtoBuy with Sauce Labs Bolt T-Shirt for Object [Swag - Item To Buy]
 
 
 ===================================================================================================
 
-Step:5  |  Object:Item To Buy  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @29-Dec-2022 21:08:42.042
+Step:5  |  Object:Item To Buy  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @12-Jan-2025 13:26:57.057
 [PASS]   | Element [Item To Buy] is Displayed
 
 
 ===================================================================================================
 
-Step:6  |  Object:Checkout  |  Action:Click  |  Input:  |  Condition:  | @29-Dec-2022 21:08:44.044
+Step:6  |  Object:Checkout  |  Action:Click  |  Input:  |  Condition:  | @12-Jan-2025 13:26:58.058
 [DONE]   | Clicking on Checkout
 
 
 ===================================================================================================
 
-Step:1  |  Object:Browser  |  Action:AddVar  |  Input:=Round(=Random(6)):  |  Condition:%var5%  | @29-Dec-2022 21:08:44.044
-[DONE]   | Variable %var5% added with value 495225
+Step:1  |  Object:Browser  |  Action:AddVar  |  Input:=Round(=Random(6)):  |  Condition:%var5%  | @12-Jan-2025 13:26:58.058
+[DONE]   | Variable %var5% added with value 211007
 
 
 ===================================================================================================
 
-Step:2  |  Object:Browser  |  Action:AddVar  |  Input:=Concat(Ashish,%var5%):  |  Condition:%Fname%  | @29-Dec-2022 21:08:44.044
-[DONE]   | Variable %Fname% added with value Ashish495225
+Step:2  |  Object:Browser  |  Action:AddVar  |  Input:=Concat(Ashish,%var5%):  |  Condition:%Fname%  | @12-Jan-2025 13:26:58.058
+[DONE]   | Variable %Fname% added with value Ashish211007
 
 
 ===================================================================================================
 
-Step:3  |  Object:First Name  |  Action:Set  |  Input:%Fname%  |  Condition:  | @29-Dec-2022 21:08:45.045
-[DONE]   | Entered Text 'Ashish495225' on 'First Name'
+Step:3  |  Object:First Name  |  Action:Set  |  Input:%Fname%  |  Condition:  | @12-Jan-2025 13:26:58.058
+[DONE]   | Entered Text 'Ashish211007' on 'First Name'
 
 
 ===================================================================================================
 
-Step:4  |  Object:Browser  |  Action:AddVar  |  Input:=Concat(Ghosh,%var5%):  |  Condition:%Lname%  | @29-Dec-2022 21:08:45.045
-[DONE]   | Variable %Lname% added with value Ghosh495225
+Step:4  |  Object:Browser  |  Action:AddVar  |  Input:=Concat(Ghosh,%var5%):  |  Condition:%Lname%  | @12-Jan-2025 13:26:58.058
+[DONE]   | Variable %Lname% added with value Ghosh211007
 
 
 ===================================================================================================
 
-Step:5  |  Object:Last Name  |  Action:Set  |  Input:%Lname%  |  Condition:  | @29-Dec-2022 21:08:45.045
-[DONE]   | Entered Text 'Ghosh495225' on 'Last Name'
+Step:5  |  Object:Last Name  |  Action:Set  |  Input:%Lname%  |  Condition:  | @12-Jan-2025 13:26:58.058
+[DONE]   | Entered Text 'Ghosh211007' on 'Last Name'
 
 
 ===================================================================================================
 
-Step:6  |  Object:Zip/Postal Code  |  Action:Set  |  Input:%var5%  |  Condition:  | @29-Dec-2022 21:08:45.045
-[DONE]   | Entered Text '495225' on 'Zip/Postal Code'
+Step:6  |  Object:Zip/Postal Code  |  Action:Set  |  Input:%var5%  |  Condition:  | @12-Jan-2025 13:26:58.058
+[DONE]   | Entered Text '211007' on 'Zip/Postal Code'
 
 
 ===================================================================================================
 
-Step:7  |  Object:Continue  |  Action:Click  |  Input:  |  Condition:  | @29-Dec-2022 21:08:57.057
+Step:7  |  Object:Continue  |  Action:Click  |  Input:  |  Condition:  | @12-Jan-2025 13:26:58.058
 [DONE]   | Clicking on Continue
 
 
 ===================================================================================================
 
-Step:1  |  Object:Total Price  |  Action:assertElementTextContains  |  Input:Purchase:TotalPrice  |  Condition:  | @29-Dec-2022 21:08:58.058
+Step:1  |  Object:Total Price  |  Action:assertElementTextContains  |  Input:Purchase:TotalPrice  |  Condition:  | @12-Jan-2025 13:26:58.058
 [PASS]   | Total Price's Text CONTAINS $17.27 
 
 
 ===================================================================================================
 
-Step:2  |  Object:Finish  |  Action:Click  |  Input:  |  Condition:  | @29-Dec-2022 21:09:00.000
+Step:2  |  Object:Finish  |  Action:Click  |  Input:  |  Condition:  | @12-Jan-2025 13:27:00.000
 [DONE]   | Clicking on Finish
 
 
 ===================================================================================================
 
-Step:3  |  Object:Success Message1  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @29-Dec-2022 21:09:00.000
+Step:3  |  Object:Success Message1  |  Action:assertElementDisplayed  |  Input:  |  Condition:  | @12-Jan-2025 13:27:10.010
 [PASS]   | Element [Success Message1] is Displayed
 
 
 ===================================================================================================
 
-Step:4  |  Object:SuccessMessage2  |  Action:assertElementPresent  |  Input:  |  Condition:  | @29-Dec-2022 21:09:02.002
+Step:4  |  Object:SuccessMessage2  |  Action:assertElementPresent  |  Input:  |  Condition:  | @12-Jan-2025 13:27:11.011
 [PASS]   | Element [SuccessMessage2] is Present
 
 ---------------------------------------------------
@@ -150,6 +150,6 @@ Testcase Name        : Sc1:Tc1
 Executed Steps       : 21
 Passed Steps         : 21
 Failed Steps         : 0
-Time Taken           : 00:02:58
+Time Taken           : 00:00:16
 ---------------------------------------------------
 

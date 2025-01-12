@@ -1,20 +1,20 @@
 Run Information
 ========================
 cognizant.intelligent.test.scripter.engine : 2.0
-java.runtime.name    : OpenJDK Runtime Environment
-java.version         : 16.0.1
-java.home            : C:\Users\User\Java\jdk-16.0.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 21.0.5
+java.home            : C:\Program Files\Java\jdk-21
 os.name              : Windows 10
 os.arch              : amd64
 os.version           : 10.0
 file.encoding        : UTF-8
 ========================
-Run Started on Thu Dec 29 21:06:06 CET 2022
+Run Started on Sun Jan 12 13:26:55 IST 2025
 Loading Browser Profile
 Loading RunManager
 [Scenario:Sc1] [TestCase: Tc1] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
 Initializing Report
-[Thread-7] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+[Thread-28] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
 ApiLink not available!!
 Run Manager true
 Continue Execution true
@@ -22,165 +22,143 @@ Shutting Down Thread as there is no need for SelectiveThreading
 Running Iteration 1
 Launching Chrome
 Launching Local Driver
-Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 9502
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 13085
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-2022-12-29 21:06:09:12S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+ChromeDriver was started successfully on port 13085.
+2025-01-12 13:26:56:01S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
 Chrome Launched
-Step:1   | Object: Browser | Action: Open | Input: Login:URL | Conditon:  | @29-Dec-2022 21:06:09.009
+Step:1   | Object: Browser | Action: Open | Input: Login:URL | Conditon:  | @12-Jan-2025 13:26:56.056
 [DONE]   | Opened Url: https://www.saucedemo.com/
 
 ===================================================================================================
 
-Step:2   | Object: Username | Action: Set | Input: Login:Username | Conditon:  | @29-Dec-2022 21:06:09.009
-Using @name [user-name], Object 'Username' Found in 51 ms
+Step:2   | Object: Username | Action: Set | Input: Login:Username | Conditon:  | @12-Jan-2025 13:26:57.057
+Using @name [user-name], Object 'Username' Found in 32 ms
 [DONE]   | Entered Text 'standard_user' on 'Username'
 
 ===================================================================================================
 
-Step:3   | Object: Password | Action: setEncrypted | Input: %password% | Conditon:  | @29-Dec-2022 21:06:10.010
+Step:3   | Object: Password | Action: setEncrypted | Input: %password% | Conditon:  | @12-Jan-2025 13:26:57.057
 %password% changed to SZpqTtjfW+i4z45kdTv2OA== Enc
-Using @name [password], Object 'Password' Found in 29 ms
+Using @name [password], Object 'Password' Found in 17 ms
 [DONE]   | Entered Encrypted Text SZpqTtjfW+i4z45kdTv2OA== on Password
 
 ===================================================================================================
 
-Step:4   | Object: Login | Action: Click | Input:  | Conditon:  | @29-Dec-2022 21:06:10.010
-Using @name [login-button], Object 'Login' Found in 25 ms
+Step:4   | Object: Login | Action: Click | Input:  | Conditon:  | @12-Jan-2025 13:26:57.057
+Using @name [login-button], Object 'Login' Found in 16 ms
 [DONE]   | Clicking on Login
 
 ===================================================================================================
 
-Step:1   | Object: Add to cart | Action: setObjectProperty | Input: Purchase:ItemToBuy | Conditon: #nameofItem | @29-Dec-2022 21:07:41.041
+Step:1   | Object: Add to cart | Action: setObjectProperty | Input: Purchase:ItemToBuy | Conditon: #nameofItem | @12-Jan-2025 13:26:57.057
 [DONE]   | Setting Object Property for #nameofItem with Sauce Labs Bolt T-Shirt for Object [Swag - Add to cart]
 
 ===================================================================================================
 
-Step:2   | Object: Add to cart | Action: Click | Input:  | Conditon:  | @29-Dec-2022 21:07:43.043
-Using @relative_xpath [//a/div[text()='Sauce Labs Bolt T-Shirt']/following::button[1]], Object 'Add to cart' Found in 33 ms
+Step:2   | Object: Add to cart | Action: Click | Input:  | Conditon:  | @12-Jan-2025 13:26:57.057
+Using @relative_xpath [//a/div[text()='Sauce Labs Bolt T-Shirt']/following::button[1]], Object 'Add to cart' Found in 18 ms
 [DONE]   | Clicking on Add to cart
 
 ===================================================================================================
 
-Step:3   | Object: Cart Icon | Action: Click | Input:  | Conditon:  | @29-Dec-2022 21:08:19.019
-Using @xpath [/html/body/div/div/div/div/div/div[3]/a], Object 'Cart Icon' Found in 26 ms
+Step:3   | Object: Cart Icon | Action: Click | Input:  | Conditon:  | @12-Jan-2025 13:26:57.057
+Using @xpath [/html/body/div/div/div/div/div/div[3]/a], Object 'Cart Icon' Found in 23 ms
 [DONE]   | Clicking on Cart Icon
 
 ===================================================================================================
 
-Step:4   | Object: Item To Buy | Action: setObjectProperty | Input: Purchase:ItemToBuy | Conditon: #ItemtoBuy | @29-Dec-2022 21:08:42.042
+Step:4   | Object: Item To Buy | Action: setObjectProperty | Input: Purchase:ItemToBuy | Conditon: #ItemtoBuy | @12-Jan-2025 13:26:57.057
 [DONE]   | Setting Object Property for #ItemtoBuy with Sauce Labs Bolt T-Shirt for Object [Swag - Item To Buy]
 
 ===================================================================================================
 
-Step:5   | Object: Item To Buy | Action: assertElementDisplayed | Input:  | Conditon:  | @29-Dec-2022 21:08:42.042
-Using @relative_xpath [//*[normalize-space(text())='Sauce Labs Bolt T-Shirt']], Object 'Item To Buy' Found in 32 ms
+Step:5   | Object: Item To Buy | Action: assertElementDisplayed | Input:  | Conditon:  | @12-Jan-2025 13:26:57.057
+Using @relative_xpath [//*[normalize-space(text())='Sauce Labs Bolt T-Shirt']], Object 'Item To Buy' Found in 21 ms
 [PASS]   | Element [Item To Buy] is Displayed
 
 ===================================================================================================
 
-Step:6   | Object: Checkout | Action: Click | Input:  | Conditon:  | @29-Dec-2022 21:08:44.044
-Using @name [checkout], Object 'Checkout' Found in 30 ms
+Step:6   | Object: Checkout | Action: Click | Input:  | Conditon:  | @12-Jan-2025 13:26:58.058
+Using @name [checkout], Object 'Checkout' Found in 15 ms
 [DONE]   | Clicking on Checkout
 
 ===================================================================================================
 
-Step:1   | Object: Browser | Action: AddVar | Input: =Round(=Random(6)): | Conditon: %var5% | @29-Dec-2022 21:08:44.044
-2022-12-29 21:08:44:12S +0100 [SEVERE] com.cognizant.cognizantits.engine.util.data.fx.FParser getJSEngine:Cannot invoke "javax.script.ScriptEngine.eval(String)" because "js" is null
-java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.eval(String)" because "js" is null
-	at com.cognizant.cognizantits.engine.util.data.fx.FParser.getJSEngine(FParser.java:97)
-	at com.cognizant.cognizantits.engine.util.data.fx.FParser.init(FParser.java:82)
-	at com.cognizant.cognizantits.engine.util.data.fx.FParser.<clinit>(FParser.java:41)
-	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolveIn(DataProcessor.java:73)
-	at com.cognizant.cognizantits.engine.execution.data.DataProcessor.resolve(DataProcessor.java:58)
-	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:181)
-	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
-	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
-	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
-	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
-	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
-	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:389)
-	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeTestCase(TestStepRunner.java:137)
-	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.execute(TestStepRunner.java:118)
-	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:63)
-	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:397)
-	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:348)
-	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:127)
-	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-
-Adding to runTimeVars %var5%:495225
+Step:1   | Object: Browser | Action: AddVar | Input: =Round(=Random(6)): | Conditon: %var5% | @12-Jan-2025 13:26:58.058
+Adding to runTimeVars %var5%:211007
 Getting runTimeVar %var5%
-[DONE]   | Variable %var5% added with value 495225
+[DONE]   | Variable %var5% added with value 211007
 
 ===================================================================================================
 
-Step:2   | Object: Browser | Action: AddVar | Input: =Concat(Ashish,%var5%): | Conditon: %Fname% | @29-Dec-2022 21:08:44.044
-%var5% changed to 495225
-Adding to runTimeVars %Fname%:Ashish495225
+Step:2   | Object: Browser | Action: AddVar | Input: =Concat(Ashish,%var5%): | Conditon: %Fname% | @12-Jan-2025 13:26:58.058
+%var5% changed to 211007
+Adding to runTimeVars %Fname%:Ashish211007
 Getting runTimeVar %Fname%
-[DONE]   | Variable %Fname% added with value Ashish495225
+[DONE]   | Variable %Fname% added with value Ashish211007
 
 ===================================================================================================
 
-Step:3   | Object: First Name | Action: Set | Input: %Fname% | Conditon:  | @29-Dec-2022 21:08:44.044
-%Fname% changed to Ashish495225
-Using @name [firstName], Object 'First Name' Found in 25 ms
-[DONE]   | Entered Text 'Ashish495225' on 'First Name'
+Step:3   | Object: First Name | Action: Set | Input: %Fname% | Conditon:  | @12-Jan-2025 13:26:58.058
+%Fname% changed to Ashish211007
+Using @name [firstName], Object 'First Name' Found in 19 ms
+[DONE]   | Entered Text 'Ashish211007' on 'First Name'
 
 ===================================================================================================
 
-Step:4   | Object: Browser | Action: AddVar | Input: =Concat(Ghosh,%var5%): | Conditon: %Lname% | @29-Dec-2022 21:08:45.045
-%var5% changed to 495225
-Adding to runTimeVars %Lname%:Ghosh495225
+Step:4   | Object: Browser | Action: AddVar | Input: =Concat(Ghosh,%var5%): | Conditon: %Lname% | @12-Jan-2025 13:26:58.058
+%var5% changed to 211007
+Adding to runTimeVars %Lname%:Ghosh211007
 Getting runTimeVar %Lname%
-[DONE]   | Variable %Lname% added with value Ghosh495225
+[DONE]   | Variable %Lname% added with value Ghosh211007
 
 ===================================================================================================
 
-Step:5   | Object: Last Name | Action: Set | Input: %Lname% | Conditon:  | @29-Dec-2022 21:08:45.045
-%Lname% changed to Ghosh495225
-Using @name [lastName], Object 'Last Name' Found in 25 ms
-[DONE]   | Entered Text 'Ghosh495225' on 'Last Name'
+Step:5   | Object: Last Name | Action: Set | Input: %Lname% | Conditon:  | @12-Jan-2025 13:26:58.058
+%Lname% changed to Ghosh211007
+Using @name [lastName], Object 'Last Name' Found in 18 ms
+[DONE]   | Entered Text 'Ghosh211007' on 'Last Name'
 
 ===================================================================================================
 
-Step:6   | Object: Zip/Postal Code | Action: Set | Input: %var5% | Conditon:  | @29-Dec-2022 21:08:45.045
-%var5% changed to 495225
-Using @name [postalCode], Object 'Zip/Postal Code' Found in 28 ms
-[DONE]   | Entered Text '495225' on 'Zip/Postal Code'
+Step:6   | Object: Zip/Postal Code | Action: Set | Input: %var5% | Conditon:  | @12-Jan-2025 13:26:58.058
+%var5% changed to 211007
+Using @name [postalCode], Object 'Zip/Postal Code' Found in 16 ms
+[DONE]   | Entered Text '211007' on 'Zip/Postal Code'
 
 ===================================================================================================
 
-Step:7   | Object: Continue | Action: Click | Input:  | Conditon:  | @29-Dec-2022 21:08:57.057
-Using @name [continue], Object 'Continue' Found in 33 ms
+Step:7   | Object: Continue | Action: Click | Input:  | Conditon:  | @12-Jan-2025 13:26:58.058
+Using @name [continue], Object 'Continue' Found in 15 ms
 [DONE]   | Clicking on Continue
 
 ===================================================================================================
 
-Step:1   | Object: Total Price | Action: assertElementTextContains | Input: Purchase:TotalPrice | Conditon:  | @29-Dec-2022 21:08:57.057
-Using @xpath [/html/body/div/div/div/div[2]/div/div[2]/div[7]], Object 'Total Price' Found in 38 ms
+Step:1   | Object: Total Price | Action: assertElementTextContains | Input: Purchase:TotalPrice | Conditon:  | @12-Jan-2025 13:26:58.058
+Using @xpath [/html/body/div/div/div/div[2]/div/div[2]/div[8]], Object 'Total Price' Found in 16 ms
 [PASS]   | Total Price's Text CONTAINS $17.27 
 
 ===================================================================================================
 
-Step:2   | Object: Finish | Action: Click | Input:  | Conditon:  | @29-Dec-2022 21:09:00.000
-Using @name [finish], Object 'Finish' Found in 27 ms
+Step:2   | Object: Finish | Action: Click | Input:  | Conditon:  | @12-Jan-2025 13:27:00.000
+Using @name [finish], Object 'Finish' Found in 21 ms
 [DONE]   | Clicking on Finish
 
 ===================================================================================================
 
-Step:3   | Object: Success Message1 | Action: assertElementDisplayed | Input:  | Conditon:  | @29-Dec-2022 21:09:00.000
-Using @relative_xpath [//*[normalize-space(text())='THANK YOU FOR YOUR ORDER']], Object 'Success Message1' Found in 39 ms
+Step:3   | Object: Success Message1 | Action: assertElementDisplayed | Input:  | Conditon:  | @12-Jan-2025 13:27:00.000
+Element could not be identified with [relative_xpath] : [//*[normalize-space(text())='THANK YOU FOR YOUR ORDER']]
+Expected condition failed: waiting for presence of any elements located by By.xpath: //*[normalize-space(text())='THANK YOU FOR YOUR ORDER'] (tried for 10 second(s) with 500 milliseconds interval)
+
+Using @xpath [/html/body/div/div/div/div[2]/h2], Object 'Success Message1' Found in 10398 ms
 [PASS]   | Element [Success Message1] is Displayed
 
 ===================================================================================================
 
-Step:4   | Object: SuccessMessage2 | Action: assertElementPresent | Input:  | Conditon:  | @29-Dec-2022 21:09:02.002
-Using @relative_xpath [//*[normalize-space(text())='Checkout: Complete!']], Object 'SuccessMessage2' Found in 33 ms
+Step:4   | Object: SuccessMessage2 | Action: assertElementPresent | Input:  | Conditon:  | @12-Jan-2025 13:27:11.011
+Using @relative_xpath [//*[normalize-space(text())='Checkout: Complete!']], Object 'SuccessMessage2' Found in 28 ms
 [PASS]   | Element [SuccessMessage2] is Present
 
 ===================================================================================================
@@ -191,15 +169,15 @@ Testcase Name        : Sc1:Tc1
 Executed Steps       : 21
 Passed Steps         : 21
 Failed Steps         : 0
-Time Taken           : 00:02:58
+Time Taken           : 00:00:16
 -----------------------------------------------------
 
-Run Finished on Thu Dec 29 21:09:05 CET 2022
+Run Finished on Sun Jan 12 13:27:11 IST 2025
 -----------------------------------------------------
-ExecutionDate        : 29-Dec-2022 21-06-06
+ExecutionDate        : 12-Jan-2025 13-26-55
 Executed TestCases   : 1
 Passed TestCases     : 1
 Failed TestCases     : 0
-Time Taken           : 00:02:58
-ReportPath           : file:///C:\Users\User\MyWorkspace\CITS\cognizant-intelligent-test-scripter-2.0\Projects\MyFirstProject\Results\TestDesign\Sc1\Tc1\29-Dec-2022 21-06-06\summary.html
+Time Taken           : 00:00:16
+ReportPath           : file:///C:\Learning\K8CICD\gitcheckouts\CognizantIntelligentTestScripter\Projects\MyFirstProject\Results\TestDesign\Sc1\Tc1\12-Jan-2025 13-26-55\summary.html
 -----------------------------------------------------

@@ -39,7 +39,6 @@ import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -47,7 +46,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.apache.poi.util.SystemOutLogger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -349,16 +347,7 @@ public class AutomationObject {
 							tagName = attr.getValue();
 							continue;
 						}
-						/*********************/
-						if (tag.equals("JSPath")) {
-							if(!attr.getValue().trim().isEmpty()) {
-							  JavascriptExecutor js = (JavascriptExecutor) driver;
-							  elements = new ArrayList<WebElement>();
-							  elements.add((WebElement) js.executeScript("return "+attr.getValue()));
-							}
-						}
-						
-						/*********************/
+
 						if (elements!=null) {
 							return elements;
 						} 
